@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+.marg{
+  margin: 1px;
+  padding: 1px;
+}
+
+.flexing{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

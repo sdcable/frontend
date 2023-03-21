@@ -23,12 +23,14 @@ class Team extends React.Component<any,any>{
     const oneTeam = this.props;
 
     return(
-      <div className='testplz'>
-        <p>
-        {oneTeam.school}<br></br>
-        {oneTeam.name}<br></br>
-        {oneTeam.city}, {oneTeam.state}
-        </p>
+      <div>
+        <div>
+          <p className='testplz'>
+          {oneTeam.school}<br></br>
+          {oneTeam.name}<br></br>
+          {oneTeam.city}, {oneTeam.state}
+          </p>
+        </div>
       </div>
     );
   }
@@ -36,7 +38,7 @@ class Team extends React.Component<any,any>{
 
 function Teams(){
   return(
-    <div>
+    <div  className="flexing">
       {AllTeams.map(oneTeam => <Team {...oneTeam}/>)}
     </div>
   );
