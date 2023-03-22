@@ -1,4 +1,9 @@
 {
+    "extends": "react-app"
+}
+
+/*
+{
     "extends": ["react-app", "plugin:prettier/recommended"],
     "rules": {
         "prettier/prettier": [
@@ -9,3 +14,6 @@
         ]
     }
 }
+
+
+*/
