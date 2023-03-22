@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Welcome/>
+        <Presented/>
         <Teams/>
       </header>
         
@@ -15,6 +16,10 @@ function App() {
 
 function Welcome(){
   return (<h1>Welcome to the NCAA Tourney</h1>)
+}
+
+function Presented(){
+  return (<h3>Presented by Spencer Cable and works</h3>)
 }
 
 class Team extends React.Component<any,any>{
